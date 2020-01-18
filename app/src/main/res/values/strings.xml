@@ -1,0 +1,68 @@
+<resources>
+
+    <!-- MainActivity login screen strings -->
+    <string name="app_name">Engineers Thesis</string>
+    <string name="app_welcome_label">Welcome,</string>
+    <string name="app_welcome_back_label">Welcome back,</string>
+    <string name="app_login_label">please login to your account.</string>
+    <string name="login_string">LOGIN</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_enter_login">Please enter login</string>
+    <string name="login_enter_password">Please enter password</string>
+    <string name="login_user_logging_in">Logging in..</string>
+    <string name="login_user_logged_in">Logged in succesfully</string>
+    <string name="login_wrong_email">Wrong email address.</string>
+    <string name="login_wrong_values">ERROR! Try again with proper values.</string>
+
+    <!-- ChooseActionActivity strings -->
+    <string name="choose_action_logging_out">Logging out..</string>
+    <string name="choose_action_are_u_sure">Are you sure you want to log out?</string>
+    <string name="choose_action_ok">OK</string>
+    <string name="choose_action_cancel">Cancel</string>
+
+    <!-- FragmentsHandlerActivity strings -->
+    <string name="scanned_element_id">Element ID</string>
+    <string name="scanned_element_name">Element name</string>
+    <string name="scanned_element_status">Element status</string>
+
+    <!-- EditSingleElementActivity strings -->
+    <string name="edit_single_uploading">Uploading...</string>
+    <string name="edit_single_uploaded">Uploaded</string>
+    <string name="edit_single_failed">Failed</string>
+    <string name="edit_single_take_photo">Take photo!</string>
+
+    <!-- SurgeryStartedFragment strings -->
+    <string name="edit_element_available">ID list</string>
+    <string name="edit_element_info">Info</string>
+    <string name="all_instruments_scanned_off">All instruments have been rescanned. You can now end surgery.</string>
+
+    <!-- EditSingleElementActivity strings -->
+    <string name="edit_element_id">ID</string>
+    <string name="edit_element_name">NAME</string>
+    <string name="edit_element_edit">APPLY CHANGES</string>
+    <string name="edit_element_set_name">set name</string>
+    <string name="app_what_action">What do you want to do?</string>
+    <string name="logout_string">LOG OUT</string>
+    <string name="app_new_surgery">Start new surgery</string>
+    <string name="app_browse_surgeries">Browse last surgeries</string>
+    <string name="app_edit_instruments">Edit instruments</string>
+    <string name="instruments_to_be_scanned_off">Instruments to be rescanned:</string>
+    <string name="end_surgery">END SURGERY</string>
+    <string name="still_in_use">Still in use:</string>
+    <string name="scanned_element_dialogbox">Dialog Box</string>
+    <string name="scanned_elements_delete">Delete instrument</string>
+    <string name="scanned_elements_are_u_sure">Are you sure you want to delete this  instrument?</string>
+
+    <!-- SingleSurgeryLayout strings -->
+    <string name="sinle_surgery_name">Surgery name</string>
+    <string name="single_surgery_date">Surgery date</string>
+    <string name="single_surgery_instruments">Surgery instruments</string>
+    <string name="single_surgery_instruments_check">Surgery instruments check</string>
+    <string name="single_surgery_instruments_not_checked">Surgery instruments not checked</string>
+    <string name="surgeries_list">Surgeries list:</string>
+
+    <string name="global_yes">Yes</string>
+    <string name="global_no">No</string>
+
+</resources>

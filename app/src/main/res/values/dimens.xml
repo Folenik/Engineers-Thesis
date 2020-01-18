@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSize8">8sp</dimen>
+    <dimen name="textSize10">10sp</dimen>
+    <dimen name="textSize12">12sp</dimen>
+    <dimen name="textSize14">14sp</dimen>
+    <dimen name="textSize16">16sp</dimen>
+    <dimen name="textSize20">20sp</dimen>
+    <dimen name="textSize24">24sp</dimen>
+    <dimen name="textSize32">32sp</dimen>
+    <dimen name="textSize36">36sp</dimen>
+
+    <dimen name="spacing0">0dp</dimen>
+    <dimen name="spacing4">4dp</dimen>
+    <dimen name="spacing5">5dp</dimen>
+    <dimen name="spacing6">6dp</dimen>
+    <dimen name="spacing8">8dp</dimen>
+    <dimen name="spacing12">12dp</dimen>
+    <dimen name="spacing16">16dp</dimen>
+    <dimen name="spacing20">20dp</dimen>
+    <dimen name="spacing24">24dp</dimen>
+    <dimen name="spacing32">32dp</dimen>
+    <dimen name="spacing48">48dp</dimen>
+    <dimen name="spacing56">56dp</dimen>
+    <dimen name="spacing60">60dp</dimen>
+    <dimen name="spacing64">64dp</dimen>
+    <dimen name="spacing80">80dp</dimen>
+    <dimen name="spacing96">96dp</dimen>
+    <dimen name="spacing104">104dp</dimen>
+    <dimen name="spacing108">108dp</dimen>
+    <dimen name="spacing110">110dp</dimen>
+    <dimen name="spacing120">120dp</dimen>
+    <dimen name="spacing128">128dp</dimen>
+    <dimen name="spacing140">140dp</dimen>
+    <dimen name="spacing256">256dp</dimen>
+
+    <dimen name="wrap_constraint">0dp</dimen>
+</resources>

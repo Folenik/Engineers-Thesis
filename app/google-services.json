@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "617161991464",
+    "firebase_url": "https://rfid-with-wifi-connection.firebaseio.com",
+    "project_id": "rfid-with-wifi-connection",
+    "storage_bucket": "rfid-with-wifi-connection.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617161991464:android:e543b288ec1b23bab9dc1d",
+        "android_client_info": {
+          "package_name": "com.kamilmosz.projektinzynierski"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617161991464-o9gih7vrsjd67vr9l3jmhd0306p6mtkg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kamilmosz.projektinzynierski",
+            "certificate_hash": "bee27204bd851e8c0480e8f0b02a333a2b184d5c"
+          }
+        },
+        {
+          "client_id": "617161991464-0qk949fons6c1n3u242k0rmnpolsu7q0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpclK0I2fEYAumLmwcIBlgaTglgm6Mids"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617161991464-0qk949fons6c1n3u242k0rmnpolsu7q0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

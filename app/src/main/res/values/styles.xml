@@ -1,0 +1,92 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorMySecondaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppFullScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="AppTheme.Launcher">
+        <item name="android:windowBackground">@drawable/launch_screen</item>
+    </style>
+
+    <style name="AppLabel">
+        <item name="android:textSize">@dimen/textSize20</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:lines">1</item>
+    </style>
+
+    <style name="AppLabel.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppLabel.Big">
+        <item name="android:textSize">@dimen/textSize24</item>
+    </style>
+
+    <style name="AppLabel.Black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="WelcomeLabel">
+        <item name="android:textSize">@dimen/textSize32</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@color/colorLightGray</item>
+    </style>
+
+    <style name="WelcomeLabel.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="LoginLabel">
+        <item name="android:textSize">@dimen/textSize12</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="LoginLabel.White">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="LoginLabel.Gray">
+        <item name="android:textColor">@color/colorLightGray</item>
+        <item name="android:textSize">@dimen/textSize16</item>
+    </style>
+
+    <style name="EditElementsLabel">
+        <item name="android:textSize">@dimen/textSize24</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+
+    <style name="ScannedItemImage">
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <style name="IDLabel">
+        <item name="android:textColor">@color/colorMySecondary</item>
+        <item name="android:textSize">@dimen/textSize24</item>
+        <item name="android:padding">@dimen/spacing8</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="EditElementToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <!-- Customize color of navigation drawer icon and back arrow -->
+        <item name="colorControlNormal">@color/colorWhite</item>
+    </style>
+
+</resources>

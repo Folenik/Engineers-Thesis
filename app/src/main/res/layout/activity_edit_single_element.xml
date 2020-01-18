@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideLineBelowBelowCenterGuideLine"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.62" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideLineBottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideLineLeft"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideLineRight"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/guideLineCenterHorizontal"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5"
+        />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideLineBelowCenter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.55" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/edit_element_toolbar"
+        android:elevation="4dp"
+        android:theme="@style/EditElementToolbarTheme"
+        android:background="@color/colorMySecondary"
+        app:titleTextColor="@color/colorWhite"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="@dimen/wrap_constraint"
+        android:layout_height="@dimen/wrap_constraint"
+        android:id="@+id/element_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_element_toolbar"
+        app:layout_constraintBottom_toBottomOf="@id/guideLineCenterHorizontal"
+        android:scaleType="fitXY" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideLineCenterVertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/element_id_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_element_id"
+        app:layout_constraintStart_toStartOf="@id/guideLineLeft"
+        app:layout_constraintTop_toBottomOf="@id/guideLineBelowCenter"
+        style="@style/AppLabel.Big"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/element_id_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_element_id"
+        app:layout_constraintEnd_toStartOf="@id/guideLineRight"
+        app:layout_constraintTop_toTopOf="@id/element_id_textview"
+        app:layout_constraintBottom_toBottomOf="@id/element_id_textview"
+        style="@style/AppLabel.Black"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/element_name_textview"
+        style="@style/AppLabel.Big"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_element_name"
+        app:layout_constraintStart_toStartOf="@id/guideLineLeft"
+        app:layout_constraintTop_toBottomOf="@id/guideLineBelowBelowCenterGuideLine"
+        app:layout_constraintBottom_toBottomOf="@id/element_name_content"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/element_name_content"
+        style="@style/AppLabel"
+        android:layout_width="@dimen/wrap_constraint"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_element_name"
+        android:textAlignment="viewEnd"
+        app:layout_constraintStart_toEndOf="@id/guideLineCenterVertical"
+        app:layout_constraintEnd_toStartOf="@id/guideLineRight"
+        app:layout_constraintTop_toBottomOf="@id/guideLineBelowBelowCenterGuideLine" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_change_name"
+        style="@style/LoginLabel.White"
+        android:layout_width="@dimen/wrap_constraint"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_button"
+        android:text="@string/edit_element_edit"
+        app:layout_constraintStart_toStartOf="@id/guideLineLeft"
+        app:layout_constraintEnd_toEndOf="@id/guideLineRight"
+        app:layout_constraintTop_toBottomOf="@id/guideLineBottom" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
